@@ -37,7 +37,7 @@ vb:
 ```Powershell
 Get-Service | Get-Member
 ```
-    Ter info: Het '|'-symbool is het pipeline-symbool en zorgt ervoor dat de output van een commando wordt doorgegeven aan de input van het volgende commando.
+>Ter info: Het '|'-symbool is het pipeline-symbool en zorgt ervoor dat de output van een commando wordt doorgegeven aan de input van het volgende commando.
 
 
 Als je dit commando uitvoert is de eerste info die je krijgt de TypeName:
