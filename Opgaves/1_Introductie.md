@@ -7,9 +7,9 @@ Zoals het woord zegt is Powershell een krachtige shell die standaard bij Windows
 
 Powershell is de opvolger van MS-DOS (Microsoft Disk Operating System), wat een van de eerste besturingssystemen was voor personal computers.  
 
-De eerste versies van Windows draaiden trouwens als applicatie bovenop MS-DOS. Bij Windows 95, Windows 98 en Windows ME was het zo dat MS-DOS eerst gestart werd alvorens de GUI opgestart werd.Het was zelfs mogelijk om de computer op te starten in MS-DOS, zonder de grafische Windows omgeving. Bij de huidige versies van Windows is dit echter nier meer het geval, en is MS-DOS enkel nog beschikbaar als emulator.
+De eerste versies van Windows draaiden trouwens als applicatie bovenop MS-DOS. Bij Windows 95, Windows 98 en Windows ME was het zo dat MS-DOS eerst gestart werd alvorens de GUI opgestart werd. Het was zelfs mogelijk om de computer op te starten in MS-DOS, zonder de grafische Windows omgeving. Bij de huidige versies van Windows is dit echter nier meer het geval, en is MS-DOS enkel nog beschikbaar als emulator.
 
-In 2006 introduceerde Microsoft PowerShell 1.0 als vervanger voor MS-DOS, en ondertussen is Powershell versie 5 standaard inbegrepen in de huidige versies van Windows.  
+In 2006 introduceerde Microsoft, PowerShell 1.0 als vervanger voor MS-DOS, en ondertussen is Powershell versie 5 standaard inbegrepen in de huidige versies van Windows.  
 Doordat Powershell de opvolger is van MS-DOS moest de backward compability verzekerd worden, en dat is ook zo: je kan zonder problemen DOS-commando's gebruiken in Powershell (**Let op!**: omgekeerd geldt dit niet!) 
 
 Vanaf versie 6.0 is Powershell open source én platformonafhankelijk geworden. Powershell kan nu dus ook gebruikt worden op Linux en MacOS besturingssystemen. De laatste stabiele versie van powershell is momenteel versie 7.3 
@@ -17,7 +17,7 @@ Vanaf versie 6.0 is Powershell open source én platformonafhankelijk geworden. P
 ### 1.1.2 Scripting taal
 
 Naast een shell is Powershell ook een objectgeoriënteerde scriptingtaal.
-> Een scriptingtaal is een programmeertaal waarmee je scripts kan schrijven, waarbij een script een reeks opeenvolgende instructies of opdrachten is die uitgevoerd moeten worden door een computer. 
+> Een scriptingtaal is een programmeertaal waarmee je scripts kan schrijven. Hierbij is een script een reeks opeenvolgende instructies of opdrachten die uitgevoerd moeten worden door een computer. 
 
 Voordelen van scripts zijn:
 * **Ze kunnen saaie en/of herhaalde taken automatiseren.**  
@@ -54,7 +54,7 @@ Om met Powershell te werken heb je een PowerShell host nodig. Dat is een applica
 * de **ISE** (Integrated Scripting Environment) 
     * Opgedeeld in een script editor en een console host  
         ![ISE](./Images/ISE.png)
-    * Grafische omgeving die, o.a. door autocompletion en syntaxhighlighting, uiterst geschikt is om PowerShell scripts te schrijven en uit te voeren.
+    * Grafische omgeving die, o.a. door auto-completion en syntax-highlighting, uiterst geschikt is om PowerShell scripts te schrijven en uit te voeren.
     * Openen door 'Powershell ISE' in te geven in het zoekvenster van de taakbalk en `Windows Powershell ISE` te starten als administrator.  
 
 
@@ -78,9 +78,9 @@ Write-Host "Hello World"
 ```powershell
 WHOAMI
 ```
-2. Save dit bestand niet als tekstfile, maar geef het de powershell-extentie mee die je in punt 4 hebt gezien
+2. Save dit bestand niet als tekstfile, maar geef het de powershell-extentie uit punt 4 mee
 3. Open een nieuwe powershell tab in de ISE met `CTRL+T`
-4. Voer het script uit en bekijk in het console venster wat het doet
+4. Open de file die je net hebt gemaakt en voer het script uit. Bekijk in het console venster wat de functie is van het script.
 
 Je kan m.a.w. elke willekeurige tekstverwerker gebruiken om een powershell script schrijven. Je mist dan wel de voordelen van de ISE (ingebouwde help, syntax highlighting,... )
 

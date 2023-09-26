@@ -80,10 +80,10 @@ Get-Help Get-Help #of
 man Get-Help
 ``` 
 
-Wat je zeker moet kunnen interpreteren is de `SYNTAX` van het commando: 
-Welke parameters **kan** je meegeven met het commando en welke parameters **moet** je meegeven. 
+Wat je zeker moet kunnen interpreteren is de `SYNTAX` van het commando:  
+>Welke parameters **kan** je meegeven met het commando en welke parameters **moet** je meegeven. 
 
-Je merkt meteen dat er voor eenzelfde commando er verschillende parameter sets bestaan. Je kan een cmdlet met andere woorden op verschillende manieren oproepen.
+Je merkt meteen dat er voor eenzelfde commando verschillende parametersets bestaan. Je kan een cmdlet met andere woorden op verschillende manieren oproepen.
 
 Je ziet ook heel wat symbolen, die in onderstaande tabel worden uitgelegd:
 
@@ -102,9 +102,11 @@ Bekijk de help files van het Get-help commando en beantwoord volgende vragen:
 
 <INS>*Oefening 6*</INS>:  
 Welke parameter moet je toevoegen aan de `Get-Help`-cmdlet om:
-1. enkel wat voorbeelden te tonen van hoe je de Get-Help cmdlet moet gebruiken, zonder info over de syntax e.d.
+1. enkel wat voorbeelden te tonen van hoe je de Get-Help cmdlet moet gebruiken, zonder info over de syntax enzo.
 2. de volledige, gedetailleerde helpfile te tonen
-3. Vraag enkel de help op van de parameter `category` die je kan meegeven met de `Get-Help`-cmdlet. Bekijk grondig welke info je terugkrijgt
+
+<INS>*Oefening 7*</INS>:
+Vraag enkel de help op van de parameter `category` die je kan meegeven met de `Get-Help`-cmdlet. Bekijk grondig welke info je terugkrijgt
 
 
 >**Tip!:**
@@ -151,7 +153,7 @@ Get-Help -full Get-Service
 # Bemerk wel dat PS hier in dit geval geen probleem van maakt, maar de leesbaarheid lijdt er onder. 
 ```
 
-<INS>*Oefening 7*</INS>:
+<INS>*Oefening 8*</INS>:
 
 1. Welke cmdlet lijst alle items op die zich op een bepaalde locatie, of in een bepaalde container, bevinden?  
 (tip: een alias voor dit commando is `dir`)
@@ -162,7 +164,7 @@ Get-Help -full Get-Service
 
 Parameters die geen waarde moeten meekrijgen heten switch-parameters, omdat ze werken als een schakelaar. Aan of af.
 
-<INS>*Oefening 8*</INS>:
+<INS>*Oefening 9*</INS>:
 
 * Hoeveel switch-parameters heeft de 'get-childitem' cmdlet?
 * Welke switch-parameter kan ervoor zorgen dat de cmdlet niet enkel de inhoud van 1 enkele container toont, maar ook van alle containers in die container?
@@ -171,7 +173,7 @@ Parameters die geen waarde moeten meekrijgen heten switch-parameters, omdat ze w
 
 Bij de syntax van elke cmdlet zal je op het einde van elke parameterset `[<CommonParameters>]` zien staan. Parameters die ingebakken zitten in PowerShell en die je dus altijd, bij elke cmdlet kan gebruiken.
 
-<INS>*Oefening 9*</INS>:
+<INS>*Oefening 10*</INS>:
 
 Hoeveel algemene parameters bestaan er?
 Gebruik hiervoor het commando
@@ -181,7 +183,7 @@ Gebruik hiervoor het commando
 help about_common*
 
 ```
-<INS>*Oefening 10*</INS>:
+<INS>*Oefening 11*</INS>:
 Voeg een algemene parameter toe aan onderstaand commando zodat er geen foutmelding (rode tekst) op het scherm komt als je het uitvoert. 
 ```powershell
 
