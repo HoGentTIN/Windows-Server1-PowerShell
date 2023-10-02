@@ -61,7 +61,17 @@ Om met Powershell te werken heb je een PowerShell host nodig. Dat is een applica
 Er zijn ook third-party hosts zoals PowerGUI, VSCode, PowerShell Studio. Hou er rekening mee dat de resultaten van PowerShell commando's er in elke host anders uit kunnen zien. Dit is niet te wijten aan PowerShell, maar louter aan de hosts zelf. 
 
 <INS>*Oefening 1*</INS>:  
-Open een PowerShell console, zoek op het web een lijst van DOS-commando's op (CLS, CD, MD, DIR,...), en kijk of deze nog steeds werken als je ze ermee aan de slag gaat in de console.
+Open een PowerShell console, zoek op het web een lijst van DOS-commando's op (CLS, CD, MD, DIR,...), en kijk of deze nog steeds werken als je ze ermee aan de slag gaat in de PowerShell console.
+
+>Controleer vooraleer je verder gaat met oefening 2 de Execution Policy die op je PC staat ingesteld.
+Doe dit met het commando:  
+`"Get-ExecutionPolicy"`   
+Bij een gewone Windows client zal dit standaard op `Restricted` ingesteld staan, wat betekent dat geen enkel script uitgevoerd zal worden. (Bij Windows server is de default waarde `RemoteSigned`)  
+Aangezien wij (enkel) onze zelfgeschreven scripts willen uitvoeren, moeten we de Execution Policy op `RemoteSigned` instellen. Doe dit met volgend commando (als **Administrator!**):  
+```"Set-ExecutionPolicy RemoteSigned"```  
+Je kan checken of het gelukt is door nogmaals het commando `"Get-ExecutionPolicy"` uit te voeren.
+
+
 
 <INS>*Oefening 2*</INS>:  
 1. Open een Powershell ISE console als administrator
@@ -78,7 +88,7 @@ Write-Host "Hello World"
 ```powershell
 WHOAMI
 ```
-2. Save dit bestand niet als tekstfile, maar geef het de powershell-extentie uit punt 4 mee
+2. Save dit bestand in de directory 'Documents' powershell script door het de powershell-extentie uit punt 4 mee te geven. Sla het script op in 'Documents'
 3. Open een nieuwe powershell tab in de ISE met `CTRL+T`
 4. Open de file die je net hebt gemaakt en voer het script uit. Bekijk in het console venster wat de functie is van het script.
 

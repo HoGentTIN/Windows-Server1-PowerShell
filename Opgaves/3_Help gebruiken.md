@@ -158,7 +158,7 @@ Get-Help -full Get-Service
 1. Welke cmdlet lijst alle items op die zich op een bepaalde locatie, of in een bepaalde container, bevinden?  
 (tip: een alias voor dit commando is `dir`)
 2. Hoeveel positionele parameters heeft elke parameterset van deze cmdlet?
-3. Maak gebruik van deze positionele parameters om alle **tekstfiles** uit de directory `My Documents` of `Mijn documenten` te tonen op het scherm.
+3. Maak gebruik van deze positionele parameters om alle **powershell scripts** uit de directory `Documents` te tonen op het scherm.
 
 ### 3.3.3 Switch-parameters
 
@@ -186,6 +186,5 @@ help about_common*
 <INS>*Oefening 11*</INS>:
 Voeg een algemene parameter toe aan onderstaand commando zodat er geen foutmelding (rode tekst) op het scherm komt als je het uitvoert. 
 ```powershell
-
 Stop-Service "test" 
 ```
